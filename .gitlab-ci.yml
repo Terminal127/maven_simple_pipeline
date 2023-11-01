@@ -11,7 +11,7 @@ variables:
 
 cache:
   paths:
-    - .m2/repository
+    - .m2/repository/
 
 
 build-job:       # This job runs in the build stage, which runs first.
