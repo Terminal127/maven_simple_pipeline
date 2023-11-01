@@ -18,6 +18,7 @@ build-job:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "Compiling the code..."
+    - cd my-app
     - mvn $MAVEN_CLI_OPTS compile
 
 
