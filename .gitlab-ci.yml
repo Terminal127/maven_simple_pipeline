@@ -7,7 +7,7 @@ stages:          # List of stages for jobs, and their order of execution
 
 variables:
   MAVEN_CLI_OPTS: " --batch-mode"
-  MAVEN_OPTS: "-dMAVEN.REPO.LOCAL=$CI_PROJECT_DIR/.m2/repository"
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
 
 cache:
   paths:
